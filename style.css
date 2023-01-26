@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #411530; color: #F5E8E4ss;
+}
+.container{
+    background-color: #D1512D;
+    min-height: calc(100vh - 40px);
+    margin: 20px 0; padding: 0 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.side-content{
+    background-color: #411530;
+    display: flex; justify-content: center; align-items: center;
+    margin-left: 30px; padding: 20px;
+}
+.title{
+    color: #F5E8E4;
+    font-size: 5rem;
+    padding-left: 10%;
+    line-height: 1.5;
+}
+.form{
+    background-color: #D1512D;
+}
+.head{
+    display: flex; justify-content: space-between; align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.logo{
+    color: #411530;
+    text-decoration: none;
+    font-size: 35px; font-weight: bold;
+    float: left;
+}
+.sign-in-link{
+    float: right;
+    letter-spacing: 0.5px;
+}
+a{
+    color: #F5E8E4;
+    font-weight: bold;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+.form-heading{
+    grid-column: 1 / -1;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #411530;
+}
+label{
+    color: #411530;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+input{
+    font-size: 1rem;
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+input[type=checkbox]{
+    width: 20px;
+}
+.submit{
+    grid-column: 1 / -1;
+    width: 50%;
+}
+input[type=submit]{
+    background-color: #411530; color: #F5E8E4;
+    border: none;
+    font-size: 20px; font-weight: bold;
+}
+input[type=submit]:hover{
+    background-color: #F5E8E4;
+    color: #411530;
+}
+input[type=button]{
+    color: #411530;
+    border: none;
+    font-weight: bold;
+}
+input[type=button]:hover{
+    background-color: #411530;
+    color: #F5E8E4;
+}
+.checkbox{
+    grid-column: 1 / -1;
+}
+.footer{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #F5E8E4;
+}
